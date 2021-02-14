@@ -3,3 +3,4 @@ for D in bin include lib libexec share xtensa-lx106-elf; do
 done
 
 rm -f package.json
+rm -f .piopm
