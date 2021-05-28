@@ -26,3 +26,15 @@ cat <<__EOF__ >package.json
     "version": "${VERSION}"
 }
 __EOF__
+
+cat <<__EOF__ >.piopm
+{
+    "name": "toolchain-xtensa",
+    "type": "toolchain",
+    "spec": {
+        "name": "toolchain-xtensa",
+        "owner": "platformio"
+    },
+    "version": "${VERSION}"
+}
+__EOF__
